@@ -42,7 +42,7 @@ function passwordProtected(req, res, next) {
   //this will show in console with base64 format
   console.log(req.headers.authorization)
   //Mean, if user type in the correct username and password
-  if (req.headers.authorization == "Basic bGVhcm46bm9kZUpT") {
+  if (req.headers.authorization == "Basic bGVhcm46bGVhcm5Ob2RlSnNz") {
     next()
   } else {
     res.status(401).send("Authentication required")
