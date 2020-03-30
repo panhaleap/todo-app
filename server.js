@@ -19,7 +19,7 @@ if (port == null || port == "") {
 //Enable accessing to folder public
 app.use(express.static('public'))
 
-let connectionString = 'mongodb+srv://UserTodoApp:xBHBrUCaGcZeCIL2@cluster0-loifk.mongodb.net/TodoApp?retryWrites=true&w=majority'
+let connectionString = 'mongodb+srv://UserTodoApp:UisKD6f9wk34JXHX@cluster0-loifk.mongodb.net/TodoApp?retryWrites=true&w=majority'
 //client param contains info about mongoDb environment we that
 //just connected to
 
